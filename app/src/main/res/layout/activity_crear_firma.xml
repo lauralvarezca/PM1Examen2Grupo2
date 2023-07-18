@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCrearFirma">
+
+    <com.grupom.pm1examen2grupo2.Dibujar
+        android:id="@+id/lienzo"
+        android:layout_width="340dp"
+        android:layout_height="164dp"
+        android:background="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="119dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#FF5722"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/txtinformacion"
+        android:layout_width="316dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/btnlimpiar"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF5722"
+        android:foregroundGravity="top|center"
+        android:text="Limpiar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <Button
+        android:id="@+id/btnverlista"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF5722"
+        android:foregroundGravity="top|center"
+        android:text="Lista de Firmas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:layout_width="228dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#FF5722"
+        android:text="Guardar Firma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
