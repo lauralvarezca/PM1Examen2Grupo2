@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     String postString, imagenString;
     ImageView imageView;
     String currentPhotoPath = "";
+
     static final int REQUESTCAMERA = 100;
     static final int TAKEFOTO = 101;
 
