@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="#F8D0C4">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

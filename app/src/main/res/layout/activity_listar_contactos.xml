@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#009688"
-    tools:context=".ListarContactos">
+    tools:context=".ListarContactos"
+    android:background="#F8D0C4">
 
     <LinearLayout
         android:layout_width="match_parent"

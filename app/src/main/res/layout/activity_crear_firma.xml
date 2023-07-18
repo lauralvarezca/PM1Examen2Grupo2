@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityCrearFirma">
+    tools:context=".ActivityCrearFirma"
+    android:background="#F8D0C4">
 
     <com.grupom.pm1examen2grupo2.Dibujar
         android:id="@+id/lienzo"
